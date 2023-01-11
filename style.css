@@ -1,0 +1,151 @@
+/*Fonts*/
+@font-face {
+    font-family: Kodchasan;
+    src: url(fonts/Kodchasan-Medium.ttf);
+}
+
+@font-face {
+    font-family: Nunito;
+    src: url(fonts/Nunito-VariableFont_wght.ttf);
+}
+/*Fonts*/
+
+body, html {
+    height: 100vh;
+    background-color: #060A28;
+}
+
+h1, h2, h3 {
+    font-family: Kodchasan;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 48px; 
+}
+
+h3 {
+    font-size: 36px;
+}
+
+.menuButton {
+    position: absolute;
+    top: 48px;
+    right: 42px;
+}
+
+.homePage {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeText {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#hey {
+    margin: 0;
+}
+
+#welcome {
+    margin: 0;
+}
+
+#im {
+    width: 100%;
+}
+
+.barsRight {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 25%;
+}
+
+.pinkR {
+    width: 100%;
+    height: 34px;
+    background-color: #ED33B9;
+    border-radius: 17px 0px 0px 17px;
+    margin-bottom: 3px;
+}
+
+.orangeR {
+    width: 80%;
+    height: 34px;
+    background-color: #FCA347;
+    border-radius: 17px 0px 0px 17px;
+    margin-bottom: 3px;
+}
+
+.cyanR {
+    width: 60%;
+    height: 34px;
+    background-color: #00C2D1;
+    border-radius: 17px 0px 0px 17px;
+    margin-bottom: 3px;
+}
+
+.yellowR {
+    width: 40%;
+    height: 34px;
+    background-color: #F9E900;
+    border-radius: 17px 0px 0px 17px;
+    margin-bottom: 3px;
+}
+
+.barSpace {
+    width: 100%;
+    height: 145px;
+}
+
+.barsLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 25%;
+}
+
+.yellowL {
+    width: 40%;
+    height: 34px;
+    background-color: #F9E900;
+    border-radius: 0px 17px 17px 0px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+
+.cyanL {
+    width: 60%;
+    height: 34px;
+    background-color: #00C2D1;
+    border-radius: 0px 17px 17px 0px;
+    margin-bottom: 3px;
+}
+
+.orangeL {
+    width: 80%;
+    height: 34px;
+    background-color: #FCA347;
+    border-radius: 0px 17px 17px 0px;
+    margin-bottom: 3px;
+}
+
+.pinkL {
+    width: 100%;
+    height: 34px;
+    background-color: #ED33B9;
+    border-radius: 0px 17px 17px 0px;
+}

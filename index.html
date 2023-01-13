@@ -10,36 +10,51 @@
     <title>Alexis's Portfolio</title>
 </head>
 <body>
-    <section class="homePage">
-        <img class="menuButton" src="images/menu.svg">
-        <div class="barsLeft">
-            <div class="barSpace"></div>
-            <div class="yellowL"></div>
-            <div class="cyanL"></div>
-            <div class="orangeL"></div>
-            <div class="pinkL"></div>
-        </div>
-        <div class="homeText">
-            <h2 id="hey">hey there, i'm Alexis!</h2> 
-            <!-- <br> -->
-            <h2 id="welcome">welcome to my portfolio! :)</h2>
-            <br>
-            <br>
-            <h3 id="im">i'm a UX designer and researcher who wants to bring the beauty i see in the world into the products and platforms we use everyday</h3>
-        </div>
+    <div class="topNav"><img class="menuButton" src="images/menu.svg"></div>
+    <section class="homePage" id="homePage">
+            <div class="barsLeft">
+                <div class="barSpace"></div>
+                <div class="yellowL"></div>
+                <div class="cyanL"></div>
+                <div class="orangeL"></div>
+                <div class="pinkL"></div>
+            </div>
+            <div class="homeText">
+                <h2 id="hey">hey there, i'm Alexis!</h2> 
+                <!-- <br> -->
+                <h2 id="welcome">welcome to my portfolio! :)</h2>
+                <br>
+                <br>
+                <h3 id="im">i'm a UX designer and researcher who wants to bring the beauty i see in the world into the products and platforms we use everyday</h3>
+            </div>
 
-        <div class="barsRight">
-            <div class="pinkR"></div>
-            <div class="orangeR"></div>
-            <div class="cyanR"></div>
-            <div class="yellowR"></div>
-            <div class="barSpace"></div>
-        </div>
-        <div class="scrollArrow"></div>
+            <div class="barsRight">
+                <div class="pinkR"></div>
+                <div class="orangeR"></div>
+                <div class="cyanR"></div>
+                <div class="yellowR"></div>
+                <div class="barSpace"></div>
+            </div>
+            <a class="arrow" href="#projectPage"><img src="images/arrowWhite_glow.svg"></a>
     </section>
 
-    <!-- <section class="projectPage">
+    <section class="projectPage" id="projectPage">
         <h1>case studies</h1>
-    </section> -->
+        <div class="projectContainer">
+            <div class="project" id="p1"></div>
+            <div class="project" id="p2"></div>
+            <div class="project" id="p3"></div>
+        </div>
+        <a class="arrow" href="#aboutPage"><img src="images/arrowWhite_glow.svg"></a>
+    </section>
+
+    <section class="aboutPage" id="aboutPage">
+        <h1>about me</h1>
+        <a class="arrow" href="#contactPage"><img src="images/arrowWhite_glow.svg"></a>
+    </section>
+
+    <section class="contactPage" id="contactPage">
+        <h1>contact me</h1>
+    </section>
 </body>
 </html>

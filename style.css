@@ -41,14 +41,32 @@ h3 {
 .topNav {
     width: 100%;
     height: 116px;
+    background-color: rgba(6, 10, 40, .7);
     position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1;
 }
 
-.menuButton {
+.navButton a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.navButton a:visited {
+    color: white;
+}
+
+.navButton a:active {
+    background-color: #ED33B9;
+}
+
+/* .menuButton {
     position: absolute;
     top: 48px;
     right: 42px;
-}
+} */
 
 .homePage {
     height: 100vh;
@@ -211,8 +229,8 @@ h3 {
     position: relative;
 }
 
-.arrow {
+/* .arrow {
     position: absolute;
     bottom: 0;
     cursor: pointer;
-}
+} */

@@ -65,8 +65,30 @@ p {
     color: white;
 }
 
-.active {
+a.active[href="#homePage"] {
+    color: #060A28;
     background-color: #ED33B9;
+    padding: 15px;
+    border-radius: 72px;
+}
+
+a.active[href="#projectPage"] {
+    color: #060A28;
+    background-color: #FCA347;
+    padding: 15px;
+    border-radius: 72px;
+}
+
+a.active[href="#aboutPage"] {
+    color: #060A28;
+    background-color: #00C2D1;
+    padding: 15px;
+    border-radius: 72px;
+}
+
+a.active[href="#contactPage"] {
+    color: #060A28;
+    background-color: #F9E900;
     padding: 15px;
     border-radius: 72px;
 }

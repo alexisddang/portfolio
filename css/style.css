@@ -198,7 +198,7 @@ p {
     justify-content: center;
     align-items: center; */
     position: relative;
-    /* padding-top: 116px; */
+    padding-top: 116px;
 }
 
 .projectContainer {
@@ -228,9 +228,9 @@ p {
 }
 
 .aboutPage {
-    height: 200vh;
+    height: auto;
     position: relative;
-    /* padding-top: 116px; */
+    padding-top: 116px;
 }
 
 .aboutContainer {
@@ -250,8 +250,8 @@ p {
 
 .contactPage {
     height: 100vh;
-
     position: relative;
+    padding-top: 116px;
 }
 
 /* .arrow {

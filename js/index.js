@@ -54,8 +54,8 @@ $(document).ready(function() {
 //Bar Animation//
 $(function() {
     $(".barsRightAnimate").delay(500).animate({
-        width: "10%"
-    }, 1200);
+        width: "0%"
+    }, 1300);
     $(".barsRightAnimate .cyanR").delay(500).animate({
         backgroundColor: "#ED33B9" //to pink
     },1200);
@@ -67,12 +67,12 @@ $(function() {
     },1200);
     $(".barsRightAnimate .orangeR").delay(500).animate({
         backgroundColor: "#F9E900" //to yellow
-    },1200);
+    },1300);
 });
 
 $(function() {
     $(".barsLeftAnimate").delay(500).animate({
-        width: "10%"
+        width: "0%"
     }, 1200);
     $(".barsLeftAnimate .orangeL").delay(500).animate({
         backgroundColor: "#F9E900" //to yellow

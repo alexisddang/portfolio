@@ -1,0 +1,45 @@
+/*Fonts*/
+@font-face {
+    font-family: Kodchasan;
+    src: url(/fonts/Kodchasan-Medium.ttf);
+}
+
+@font-face {
+    font-family: Nunito;
+    src: url(/fonts/Nunito-Medium.ttf);
+}
+/*Fonts*/
+
+body, html {
+    height: 100vh;
+    background-color: #060A28;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3 {
+    font-family: Kodchasan;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 64px;
+    margin-bottom: 48px;
+}
+
+h2 {
+    font-size: 48px; 
+}
+
+h3 {
+    font-size: 36px;
+}
+
+p {
+    font-family: Nunito;
+    font-size: 24px;
+    color: white;
+}

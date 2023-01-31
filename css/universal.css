@@ -1,12 +1,12 @@
 /*Fonts*/
 @font-face {
     font-family: Kodchasan;
-    src: url(fonts/Kodchasan-Medium.ttf);
+    src: url("../fonts/Kodchasan-Medium.ttf");
 }
 
 @font-face {
     font-family: Nunito;
-    src: url(fonts/Nunito-Medium.ttf);
+    src: url("../fonts/Nunito-Medium.ttf");
 }
 /*Fonts*/
 

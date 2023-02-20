@@ -4,3 +4,27 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.breadcrumb {
+    background-color: #060A28;
+}
+
+.breadcrumb-item {
+    color: white;
+}
+
+.breadcrumb-item a {
+    color: white;
+}
+
+.protoImg {
+    width: 60%;
+}
+
+.empathyImg {
+    width: 40%;
+}
+
+.personaImg {
+    width: 40%;
+}

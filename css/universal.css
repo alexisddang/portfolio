@@ -8,6 +8,29 @@
     font-family: Nunito;
     src: url("../fonts/Nunito-Medium.ttf");
 }
+
+@font-face {
+    font-family: NunitoItalic;
+    src: url("../fonts/Nunito-MediumItalic.ttf");
+}
+
+/* @font-face {
+    font-family: NunitoBold;
+    src: url("../fonts/Nunito-Bold.ttf");
+}
+
+@font-face {
+    font-family: NunitoBoldItalic;
+    src: url("../fonts/Nunito-BoldItalic.ttf");
+} */
+
+em {
+    font-family: NunitoItalic;
+}
+
+/* strong {
+    font-family: NunitoBold;
+} */
 /*Fonts*/
 
 body, html {
@@ -46,4 +69,6 @@ p {
 
 a, li {
     font-family: Nunito;
+    font-size: 24px;
+    color: white;
 }

@@ -261,20 +261,41 @@ a.active[href="#contactPage"] {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding: 0px 100px;
 }
 
 .profileImage {
-    width: 380px;
+    width: 40%;
+    max-width: 600px;
     height: 720px;
     margin: 32px;
-    background-color: #5767DC;
+    border-radius: 17px;
+    background-image: url("../images/profilepic.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
+.aboutText {
+    width: 70%;
+}
 
 .contactPage {
     height: 100vh;
     position: relative;
     padding-top: 116px;
+}
+
+.contactContainer {
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    font-size: 132px;
+    margin: 32px;
 }
 
 /* .arrow {

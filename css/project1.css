@@ -49,13 +49,14 @@
     height: 100%;
 }
 
+h3 {
+    text-align: start;
+}
+
 .introContainer {
     display: flex;
     flex-direction: row;
-}
-
-.introContainer h3 {
-    text-align: start;
+    margin-bottom: 48px;
 }
 
 #firstColumn {
@@ -82,3 +83,30 @@
 #duration {
     margin-left: 24px;
 }
+
+.protoContainer {
+    margin-bottom: 48px;
+}
+
+.protoImg {
+    border-radius: 17px;
+}
+
+.interviewContainer {
+    margin-bottom: 48px;
+}
+
+.card {
+    border-radius: 17px;
+    background-color: #C7CAE8; 
+    padding: 17px;
+}
+
+ul {
+    font-family: Nunito;
+    color: #060A28;
+    font-size: 18px;
+    line-height: 1.6;
+    list-style-type:disc;
+}
+

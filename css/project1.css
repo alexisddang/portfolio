@@ -84,13 +84,19 @@ h3 {
     margin-left: 24px;
 }
 
-.protoContainer {
+/* UNIVERSAL */
+img {
+    border-radius: 17px;
+}
+
+.imgContainer {
     margin-bottom: 48px;
 }
 
-.protoImg {
+.imgContent {
     border-radius: 17px;
 }
+/* UNIVERSAL */
 
 .interviewContainer {
     margin-bottom: 48px;
@@ -108,6 +114,10 @@ ul {
     font-size: 18px;
     line-height: 1.6;
     list-style-type:disc;
+}
+
+.carousel {
+    margin-bottom: 48px;
 }
 
 .carousel-inner img {
@@ -216,6 +226,14 @@ ul {
     text-decoration: none;
     cursor: pointer;
 }
+
+.personaImg {
+    background-image: url("../images/userpersona.png");
+
+}
+
+
+
 
 @media only screen and (max-width: 700px){
     .modal-content {

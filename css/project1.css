@@ -85,10 +85,6 @@ h3 {
 }
 
 /* UNIVERSAL */
-img {
-    border-radius: 17px;
-}
-
 .imgContainer {
     margin-bottom: 48px;
 }
@@ -106,6 +102,17 @@ img {
     border-radius: 17px;
     background-color: #C7CAE8; 
     padding: 17px;
+}
+
+.card-title {
+    color: #060A28
+}
+
+.card-text {
+    font-family: Nunito;
+    color: #060A28;
+    font-size: 18px;
+    line-height: 1.6;
 }
 
 ul {
@@ -128,14 +135,17 @@ ul {
 
 .carousel-indicators {
     margin-bottom: -25px;
+    z-index: 0;
 }
 
 .carousel-control-prev {
     margin-left: -125px;
+    z-index: 0;
 }
 
 .carousel-control-next {
     margin-right: -125px;
+    z-index: 0;
 }
 
 #affinity1Img {

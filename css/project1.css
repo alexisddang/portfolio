@@ -181,5 +181,18 @@ ul {
 
 }
 
+.imgGif {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.bodyList {
+    color: #C7CAE8;
+    font-size: 24px;
+    margin-left: 80px;
+}
+
+
 
 

@@ -49,12 +49,6 @@ a.active[href="#contactPage"] {
     border-radius: 72px;
 }
 
-/* .menuButton {
-    position: absolute;
-    top: 48px;
-    right: 42px;
-} */
-
 .homePage {
     height: 100vh;
     display: flex;
@@ -209,10 +203,6 @@ a.active[href="#contactPage"] {
 
 .projectPage {
     height: 100vh;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
     position: relative;
     padding-top: 116px;
 }
@@ -298,8 +288,78 @@ a.active[href="#contactPage"] {
     margin: 32px;
 }
 
-/* .arrow {
-    position: absolute;
-    bottom: 0;
-    cursor: pointer;
-} */
+.mobileNav {
+    display: none;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .topNav {
+        display: none;
+    }
+
+    .mobileNav {
+        width: 100%;
+        height: 58px;
+        background-color: rgba(6, 10, 40, .7);
+        position: fixed;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        z-index: 1;
+    }
+
+    .homePage {
+        flex-direction: column;
+    }
+
+    .projectPage {
+        height: 100vh;
+    }
+
+    .projectContainer {
+        display: none;
+    }
+
+    .project {
+        width: 240px;
+        height: 240px;
+        margin: 20px;
+        border-radius: 17px;
+    }
+
+    #p1, #p2, #p3 {
+       margin: auto;
+    }
+
+    .carousel-indicators {
+        margin-bottom: -25px;
+    }
+
+    .aboutContainer {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .profileImage {
+        width: 80%;
+        height: 420px;
+    }
+
+    .barsLeft, .barsRight {
+        display: none;
+    }
+
+    .homeText {
+        width: 80%;
+    }
+
+    .contactContainer {
+        flex-direction: column;
+    }
+    .icon {
+        font-size: 64px;
+        margin: 16px;
+    }
+}

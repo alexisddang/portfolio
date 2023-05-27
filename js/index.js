@@ -119,3 +119,10 @@ $(window).on('click', function(event){
     }
 });
 
+
+// Mobile Nav https://codepen.io/designcouch/pen/ExvwPY
+$(document).ready(function(){
+    $('#hamburger').click(function(){
+        $(this).toggleClass('open');
+    });
+});

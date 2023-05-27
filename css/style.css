@@ -292,7 +292,64 @@ a.active[href="#contactPage"] {
     display: none;
 }
 
+/* https://codepen.io/designcouch/pen/ExvwPY */
+#hamburger {
+    width: 52px;
+    height: 34px;
+    position: relative;
+    transform: rotate(0deg);
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
 
+#hamburger span {
+    display: block;
+    position: absolute;
+    height: 5px;
+    width: 100%;
+    background: white;
+    border-radius: 17px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+}
+
+#hamburger span:nth-child(1) {
+    top: 0px;
+}
+
+#hamburger span:nth-child(2), #hamburger span:nth-child(3) {
+    top: 14px;
+}
+
+#hamburger span:nth-child(4) {
+    top: 28px;
+}
+
+#hamburger.open span:nth-child(1) {
+    top: 18px;
+    width: 0%;
+    left: 50%;
+}
+
+#hamburger.open span:nth-child(2) {
+    transform: rotate(45deg);
+}
+
+#hamburger.open span:nth-child(3) {
+    transform: rotate(-45deg);
+}
+
+#hamburger.open span:nth-child(4) {
+    top: 18px;
+    width: 0%;
+    left: 50%;
+}
+
+.carousel {
+    display: none;
+}
 
 @media only screen and (max-width: 600px) {
     .topNav {
@@ -301,7 +358,7 @@ a.active[href="#contactPage"] {
 
     .mobileNav {
         width: 100%;
-        height: 58px;
+        height: 64px;
         background-color: rgba(6, 10, 40, .7);
         position: fixed;
         display: flex;
@@ -331,6 +388,10 @@ a.active[href="#contactPage"] {
 
     #p1, #p2, #p3 {
        margin: auto;
+    }
+
+    .carousel {
+        display: block;
     }
 
     .carousel-indicators {

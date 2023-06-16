@@ -229,15 +229,34 @@ a.active[href="#contactPage"] {
     box-shadow: inset 0 0 0 1000px rgba(252,163,71,.5);
 }
 #p1:hover {
-    box-shadow: 0 0 20px 10px #FCA347 ;
+    box-shadow: none;
+    outline-style: solid;
+    outline-width: 10px;
+    outline-color: #FCA347;
 }
 
 #p2 {
-    background-color: #fca347;
+    background-image: url("../images/project2.1.png");
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 0 0 1000px rgba(252,163,71,.5);
+}
+
+#p2:hover {
+    background-image: url("../images/project2.2.png");
+    box-shadow: none;
 }
 
 #p3 {
-    background-color: #FCA347;
+    background-image: url("../images/project3.1.png");
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 0 0 1000px rgba(252,163,71,.5);
+}
+
+#p3:hover {
+    background-image: url("../images/project3.2.png");
+    box-shadow: none;
 }
 
 .aboutPage {
@@ -283,9 +302,24 @@ a.active[href="#contactPage"] {
     align-items: center;
 }
 
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a.contact {
+    text-decoration: none;
+}
+
 .icon {
     font-size: 132px;
-    margin: 32px;
+    margin: 32px 32px 0px 32px;
+}
+
+.contact:hover {
+    color: #F9E900;
 }
 
 .mobileNav {

@@ -1,0 +1,78 @@
+.pageContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.breadcrumb {
+    background-color: #060A28;
+}
+
+.breadcrumb-item {
+    color: white;
+}
+
+.breadcrumb-item a {
+    color: white;
+}
+
+.spacer {
+    width: 100%;
+    height: 10%;
+}
+
+.coverImg {
+    background-image: url("../images/project2/project2.3.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 17px;
+    width: 80%;
+    height: 60%;
+    margin: auto;
+    margin-bottom: 48px;
+}
+
+.contentContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 80%;
+    height: 100%;
+}
+
+h3 {
+    text-align: start;
+}
+
+.introContainer {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 48px;
+}
+
+#firstColumn {
+    width: 50%;
+    margin-right: 24px;
+}
+
+#secondColumn {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 24px;
+}
+
+#toolsDuration {
+    display: flex;
+    flex-direction: row;
+}
+
+#tools {
+    margin-right: 24px;
+}
+
+#duration {
+    margin-left: 24px;
+}

@@ -6,13 +6,6 @@
     align-items: center;
 }
 
-.p1Hero {
-    background-image: url("../images/project1.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
 .breadcrumb {
     background-color: #060A28;
 }
@@ -31,7 +24,7 @@
 }
 
 .coverImg {
-    background-image: url("../images/project1.png");
+    background-image: url("../images/project1/project1.png");
     background-size: cover;
     background-position: center;
     border-radius: 17px;
@@ -181,7 +174,7 @@ ol {
 }
 
 .personaImg {
-    background-image: url("../images/userpersona.png");
+    background-image: url("../images/project1/userpersona.png");
 
 }
 

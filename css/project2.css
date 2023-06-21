@@ -76,3 +76,56 @@ h3 {
 #duration {
     margin-left: 24px;
 }
+
+/* UNIVERSAL */
+.imgContainer {
+    margin-bottom: 48px;
+}
+
+.imgContent {
+    border-radius: 17px;
+}
+
+.bodyList {
+    color: #C7CAE8;
+    font-size: 24px;
+    margin-left: 80px;
+}
+
+ul {
+    font-family: Nunito;
+    color: #060A28;
+    font-size: 18px;
+    line-height: 1.6;
+    list-style-type:disc;
+}
+
+ol {
+    font-family: Nunito;
+    color: #060A28;
+    font-size: 18px;
+    line-height: 1.6;
+    list-style-type: decimal;
+}
+/* UNIVERSAL */
+
+.interviewContainer {
+    margin-bottom: 48px;
+}
+
+.card {
+    border-radius: 17px;
+    background-color: #C7CAE8; 
+    padding: 17px;
+}
+
+.card-title {
+    color: #060A28
+}
+
+.card-text {
+    font-family: Nunito;
+    color: #060A28;
+    font-size: 18px;
+    line-height: 1.6;
+}

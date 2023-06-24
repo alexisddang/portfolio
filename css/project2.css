@@ -129,3 +129,44 @@ ol {
     font-size: 18px;
     line-height: 1.6;
 }
+
+.carousel {
+    margin-bottom: 48px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    border-radius: 17px;
+}
+
+.carousel-indicators {
+    margin-bottom: -25px;
+    z-index: 0;
+}
+
+.carousel-control-prev {
+    margin-left: -125px;
+    z-index: 0;
+}
+
+.carousel-control-next {
+    margin-right: -125px;
+    z-index: 0;
+}
+
+.carouselImg {
+    border-radius: 17px;
+    cursor: pointer;
+    transition: 0.3s;   
+}
+
+.carouselImg:hover {
+    opacity: 0.7;
+}
+
+.modal {
+    padding: 70px 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    overflow: scroll;
+}

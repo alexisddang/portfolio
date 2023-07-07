@@ -136,12 +136,12 @@ ol {
 }
 
 .carousel-control-prev {
-    margin-left: -125px;
+    margin-left: -150px;
     z-index: 0;
 }
 
 .carousel-control-next {
-    margin-right: -125px;
+    margin-right: -150px;
     z-index: 0;
 }
 
